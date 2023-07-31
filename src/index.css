@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Media Queries */
+@media (max-width: 1012px) {
+  table {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .edit {
+    width: 18px;
+  }
+  .delete {
+    width: 18px;
+  }
+  .create-expense {
+    left: 61px;
+    font-size: 13px;
+  }
+  .cancel {
+    left: 61px;
+    font-size: 13px;
+  }
+  .headline {
+    font-size: 14px;
+  }
+}
+@media (max-width: 888px) {
+  .create-expense-modal,
+  .edit-expense-modal {
+    top: 520px;
+    right: 250px;
+    width: 42%;
+  }
+  .table {
+    width: 98%;
+    margin-top: 10px;
+  }
+  .email-input {
+    width: 190px;
+  }
+  .create-expense {
+    left: 87px;
+  }
+  .cancel {
+    left: 87px;
+  }
+  .new-expense {
+    right: 5%;
+  }
+  .search {
+    right: 25%;
+  }
+  .date-filter {
+    right: 43%;
+  }
+}
+@media (max-width: 640px) {
+  .date-filter {
+    right: 52%;
+    width: 26px;
+  }
+  .search {
+    right: 32%;
+    width: 109px;
+  }
+  .new-expense {
+    right: 9%;
+  }
+  .table {
+    width: 99%;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .create-expense-modal,
+  .edit-expense-modal {
+    top: 520px;
+    right: 25%;
+    width: 53%;
+    font-size: 13px;
+  }
+}
+@media (max-width: 534px) {
+  .headline {
+    font-size: 13px;
+  }
+  .search {
+    right: 35%;
+    width: 48px;
+  }
+  .new-expense {
+    right: 6%;
+    font-size: 13px;
+    width: 22%;
+  }
+  .table {
+    font-size: 10px;
+  }
+  .edit,
+  .delete {
+    width: 14px;
+  }
+  .create-expense-modal,
+  .edit-expense-modal {
+    top: 520px;
+    right: 21%;
+    width: 58%;
+    font-size: 12px;
+  }
+  .create-expense-modal input,
+  select {
+    width: 45%;
+  }
+  .edit-expense-modal input,
+  select {
+    width: 45%;
+  }
+  .create-expense,
+  .cancel,
+  .update-expense {
+    left: 26%;
+  }
+}
+@media (max-width: 436px) {
+  .App-title {
+    font-size: 19px;
+  }
+  .headline {
+    font-size: 12px;
+    right: 3%;
+  }
+  .new-expense {
+    right: 3%;
+    font-size: 11px;
+    width: 27%;
+    padding: 3px 2px;
+  }
+  .table {
+    font-size: 8px;
+    font-weight: 700;
+  }
+  .create-expense-modal,
+  .edit-expense-modal {
+    top: 520px;
+    right: 16%;
+    width: 70%;
+    font-size: 12px;
+  }
+  .email-input {
+    width: 178px;
+  }
+}
