@@ -4,7 +4,7 @@ import ExpenseTable from "./ExpenseTable";
 import "../index.css"
 
 const ViewExpence = () => {
-  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [showCreateModal, setShowCreateModal] = useState(true);
   const [expenses, setExpenses] = useState([]);
 
   const handleCreateExpense = (expenseData) => {
