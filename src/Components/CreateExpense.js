@@ -52,7 +52,7 @@ const CreateExpense = ({ onClose, onCreateExpense }) => {
         <label className="text-md ">
           Name:
           <input
-            className="border-[1px] p-1 m-2 border-gray-500 rounded text-[13px]"
+            className="border-[1px] p-1 m-2 border-gray-500 rounded text-[13px] w-[70%] "
             placeholder="Gym"
             type="text"
             value={name}
@@ -63,7 +63,7 @@ const CreateExpense = ({ onClose, onCreateExpense }) => {
         <label className="text-md ">
           Description:
           <input
-            className="border-[1px] p-1 m-2 border-gray-500 rounded text-[13px]"
+            className="border-[1px] p-1 m-2 border-gray-500 rounded text-[13px] w-[60%]"
             placeholder="Gym Subscription"
             required
             type="text"
@@ -90,7 +90,7 @@ const CreateExpense = ({ onClose, onCreateExpense }) => {
         <label className="text-md ">
           Date of Expense:
           <input
-            className="border-[1px] p-1 m-2 border-gray-500 rounded text-[13px]"
+            className="border-[1px] p-1 m-2 border-gray-500 rounded text-[13px] w-[50%]"
             type="date"
             required
             value={date}
@@ -111,7 +111,7 @@ const CreateExpense = ({ onClose, onCreateExpense }) => {
         <label className="text-md ">
           Email:
           <input
-            className="border-[1px] email-input  p-1 m-2 border-gray-500 rounded text-[13px]"
+            className="border-[1px] email-input  p-1 m-2 border-gray-500 rounded text-[13px] w-[70%]"
             type="email"
             value={email}
             required
@@ -121,13 +121,13 @@ const CreateExpense = ({ onClose, onCreateExpense }) => {
         </label>
         <button
           type="submit"
-          className="text-md bg-[#15ad4f] p-1.5 my-[10px] mx-[5px] relative left-[90px] text-white w-[46%] text-center rounded create-expense"
+          className="text-md bg-[#15ad4f] p-1.5 my-[10px] mx-[5px] relative left-[28%] text-white w-[46%] text-center rounded create-expense"
         >
           Create Expense
         </button>
         <button
           onClick={onClose}
-          className="text-md bg-[#dadada] p-1.5  mx-[5px] relative left-[90px] w-[46%] text-center rounded cancel"
+          className="text-md bg-[#dadada] p-1.5  mx-[5px] relative left-[28%] w-[46%] text-center rounded cancel"
         >
           Cancel
         </button>

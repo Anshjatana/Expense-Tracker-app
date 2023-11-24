@@ -69,7 +69,7 @@ const ExpenseTable = ({
       />
       <div className="overflow-y-scroll h-[430px] ">
       <table className=" table border-2 border-[#c1bdbd] w-[67%]  relative top-[20px] ">
-        <thead className="bg-[darkgray] text-white">
+        <thead className="bg-[darkgray] text-white ">
           <tr>
             <th className="p-[10px]">Name</th>
             <th>Category</th>

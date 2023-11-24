@@ -130,13 +130,13 @@ const EditExpense = ({ expense, onClose, onUpdateExpense }) => {
         </label>
         <button
           type="submit"
-          className="text-md bg-[#15ad4f] update-expense p-1.5 my-[10px] mx-[5px] relative left-[90px] text-white w-[46%] text-center rounded"
+          className="text-md bg-[#15ad4f] update-expense p-1.5 my-[10px] mx-[5px] relative left-[28%] text-white w-[46%] text-center rounded"
         >
           Update Expense
         </button>
         <button
           onClick={onClose}
-          className="text-md bg-[#dadada] cancel p-1.5  mx-[5px] relative left-[90px] w-[46%] text-center rounded"
+          className="text-md bg-[#dadada] cancel p-1.5  mx-[5px] relative left-[28%] w-[46%] text-center rounded"
         >
           Cancel
         </button>

@@ -20,14 +20,14 @@ const ViewExpence = () => {
         expense.id === updatedExpense.id ? updatedExpense : expense
       )
     );
-    setShowCreateModal(false);
+    setShowCreateModal(true);
   };
   const handleEditButtonClick = () => {
     setShowCreateModal(false);
   };
   return (
-    <div className="box-border absolute p-6 h-[85vh] bg-[#f9f9f9] overflow-auto top-[79px] left-[20px] rounded-md w-[96vw] ">
-      <h2 className="uppercase relative text-[17px] font-bold headline">
+    <div className="box-border absolute p-6 h-[85vh]  bg-[#f9f9f9] overflow-auto top-[79px] left-[20px] rounded-md w-[96vw] ">
+      <h2 className="uppercase relative text-[17px] font-bold headline mb-4">
         My Expense Manager
       </h2>
       <button
